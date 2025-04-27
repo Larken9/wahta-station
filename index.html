@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Wahta Station | Native-Owned Smoke Shop</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Top Bar -->
+    <div class="top-bar">Indigenous-Owned | Family Operated</div>
+
+    <header class="site-header">
+        <nav class="navbar">
+          <!-- Logo left -->
+          <div class="navbar-logo">
+            <a href="/">
+              <img src="images/logo-new.png" alt="Wahta Station Logo">
+            </a>
+          </div>
+      
+          <!-- Centered nav links -->
+          <ul class="navbar-links">
+            <li><a href="#fasion">Fasion</a></li>
+            <li><a href="#cigar">Cigars</a></li>
+            <li><a href="#shop">Grocceries</a></li>
+            <li><a href="#gift">Gift Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+      
+          <!-- Icons right -->
+          <div class="navbar-icons">
+            <a href="#visit" class="icon-link" title="Find a Store">
+              <img src="images/map-pin.svg" alt="Find a Store">
+            </a>
+            <a href="#account" class="icon-link" title="Account">
+              <img src="images/user-icon.svg" alt="My Account">
+            </a>
+          </div>
+        </nav>
+      </header>
+      
+
+  <!-- Hero Carousel -->
+<section class="hero-carousel">
+    <!-- Slides wrapper -->
+    <div class="hero-carousel__slides">
+      <!-- Slide 1 -->
+      <div class="hero-new hero-carousel__slide active">
+        <div class="hero-new__left">
+          <h1>Welcome to The Wahta Station</h1>
+          <p class="hero-new__sub">
+            Muskoka’s best stocked Native Smoke Shop—cigars, groceries, fireworks & more.
+          </p>
+          <a href="#visit" class="btn-secondary">Visit Us!</a>
+        </div>
+        <div class="hero-new__right">
+          <img src="images/ChatGPT Image Apr 27, 2025, 02_35_12 PM.png" alt="Storefront in autumn">
+        </div>
+      </div>
+  
+      <!-- Slide 2 -->
+      <div class="hero-new hero-carousel__slide">
+        <div class="hero-new__left">
+          <h1>Seasonal Fireworks Sale</h1>
+          <p class="hero-new__sub">
+            Take 20% off all fireworks this week only!
+          </p>
+          <a href="#promotions" class="btn-secondary">Shop Fireworks</a>
+        </div>
+        <div class="hero-new__right">
+          <img src="fireworks-hero.jpg" alt="Colorful fireworks display">
+        </div>
+      </div>
+  
+      <!-- Slide 3 -->
+      <div class="hero-new hero-carousel__slide">
+        <div class="hero-new__left">
+          <h1>Meal Deals</h1>
+          <p class="hero-new__sub">
+            Learn more about our $3, $4 & $5 meal combos.
+          </p>
+          <a href="#meals" class="btn-secondary">View Deals</a>
+        </div>
+        <div class="hero-new__right">
+          <img src="meals-hero.jpg" alt="Meal deal lineup">
+        </div>
+      </div>
+    </div>
+  
+    <!-- Controls -->
+    <button class="carousel-arrow carousel-prev" aria-label="Previous slide">←</button>
+    <button class="carousel-arrow carousel-next" aria-label="Next slide">→</button>
+  </section>
+  
+  
+ 
+  
+
+    <!-- Quick Links Section -->
+    <section class="quick-links">
+      <div class="quick-grid">
+        <div class="quick-item">
+          <img src="images/firework-icon.png" alt="" />
+          <p>Fireworks</p>
+        </div>
+        <div class="quick-item">
+          <img src="images/cigar-icon.png" alt="" />
+          <p>Cigars</p>
+        </div>
+        <div class="quick-item">
+          <img src="images/grocceries.png" alt="" />
+          <p>Groceries</p>
+        </div>
+        <div class="quick-item">
+          <img src="images/fashion-icon.png" alt="" />
+          <p>Humidor</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Promotions Banner -->
+    <section id="promotions" class="promo-banner">
+      <div class="container">
+        <h2>🔥 Seasonal Fireworks Sale Now On! 🔥</h2>
+        <p>Visit us today to grab yours before they're gone!</p>
+      </div>
+    </section>
+
+    <!-- Featured Products Module -->
+    <section id="featured" class="featured-section">
+      <div class="container featured-grid">
+        <!-- Main display -->
+        <div class="featured-main">
+          <div class="featured-copy">
+            <h2 id="fp-title">2/$4.50 Coca-Cola® 20 oz.</h2>
+            <p id="fp-desc">
+              Try NEW flavour Orange Cream.<br />
+              Explore our selection
+            </p>
+            <a href="#" id="fp-cta" class="btn-primary">Visit Us</a>
+          </div>
+          <div class="featured-image">
+            <img
+              id="fp-img"
+              src="images/coke-product.png"
+              alt="Coca-Cola"
+            />
+          </div>
+        </div>
+
+        <!-- Thumbnail list -->
+        <ul class="featured-thumbs">
+          <li
+            class="thumb active"
+            data-img="images/cigar-product.png"
+            data-title="2/$4.50 Coca-Cola® 20 oz."
+            data-desc="Explore our selection of cigars"
+            data-cta="Find a Store"
+          >
+            <img src="images/cigar-product.png" alt="Coke" />
+          </li>
+          <li
+            class="thumb"
+            data-img="images/coke-product.png"
+            data-title="Coca-Cola®"
+            data-desc="Buy Coca-Cola to earn extra gameplays."
+            data-cta="Shop Now"
+          >
+            <img src="images/coke-product.png" alt="M&amp;M’s" />
+          </li>
+          <li
+            class="thumb"
+            data-img="images/monster-product.png"
+            data-title="Monster Energy Drink"
+            data-desc="Try our new flavour"
+            data-cta="Learn More"
+          >
+            <img src="images/monster-product.png" alt="Trolli" />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  <!-- Get Connected Section -->
+  <section id="connect" class="connect-section container">
+    <h2>Get Connected</h2>
+    <div class="connect-grid">
+      <!-- Instagram -->
+      <div class="connect-card">
+        <blockquote 
+          class="instagram-media" 
+          data-instgrm-permalink="https://www.instagram.com/p/XXXXXXXXX/" 
+          data-instgrm-version="14"
+        ></blockquote>
+        <div class="placeholder-icon">
+          <img src="images/instagram-icon.png" alt="Instagram">
+        </div>
+      </div>
+  
+      <!-- Twitter -->
+      <div class="connect-card">
+        <blockquote class="twitter-tweet">
+          <a href="https://twitter.com/hashtag/Wahta?src=hashtag_click"></a>
+        </blockquote>
+        <div class="placeholder-icon">
+          <img src="images/twitter-icon.png" alt="Twitter">
+        </div>
+      </div>
+  
+      <!-- Facebook -->
+      <div class="connect-card">
+        <div 
+          class="fb-post" 
+          data-href="https://www.facebook.com/hashtag/Wahta" 
+          data-width="500"
+        ></div>
+        <div class="placeholder-icon">
+          <img src="images/facebook-icon.png" alt="Facebook">
+        </div>
+      </div>
+  
+      <!-- YouTube -->
+      <div class="connect-card">
+        <iframe 
+          src="https://www.youtube.com/embed?listType=search&list=%23Wahta" 
+          title="YouTube #Wahta" 
+          allowfullscreen
+        ></iframe>
+        <div class="placeholder-icon">
+          <img src="images/youtube-icon.png" alt="YouTube">
+        </div>
+      </div>
+  
+      <!-- TikTok -->
+      <div class="connect-card">
+        <blockquote 
+          class="tiktok-embed" 
+          cite="https://www.tiktok.com/tag/Wahta" 
+          data-video-id=""
+          style="max-width:605px;min-width:325px;"
+        ></blockquote>
+        <div class="placeholder-icon">
+          <img src="images/tiktok-icon.png" alt="TikTok">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!-- Social scripts -->
+  <script async src="//www.instagram.com/embed.js"></script>
+  <script async src="https://platform.twitter.com/widgets.js"></script>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" 
+    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v16.0"
+  ></script>
+  <script async src="https://www.tiktok.com/embed.js"></script>
+  
+
+    <!-- Visit Section -->
+    <section id="visit" class="map-section">
+      <div class="container">
+        <h2>Find Us</h2>
+        <iframe
+          src="https://maps.google.com/maps?q=wahta%20station&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          frameborder="0"
+          allowfullscreen=""
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-container">
+        <p>
+          &copy; 2025 The Wahta Station | Hwy 400 Exit 177 | Open 7 Days a Week
+        </p>
+        <div class="social-icons">
+          <a href="#">Facebook</a> |
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+    </footer>
+    <!-- at the very bottom of index.html, just above </body> -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const thumbs = document.querySelectorAll('.featured-thumbs .thumb');
+      const imgEl   = document.getElementById('fp-img');
+      const titleEl = document.getElementById('fp-title');
+      const descEl  = document.getElementById('fp-desc');
+      const ctaEl   = document.getElementById('fp-cta');
+  
+      thumbs.forEach(thumb => {
+        thumb.addEventListener('click', () => {
+          // 1) Toggle active state
+          thumbs.forEach(t => t.classList.remove('active'));
+          thumb.classList.add('active');
+  
+          // 2) Read the data attributes
+          const { img, title, desc, cta } = thumb.dataset;
+  
+          // 3) Swap out the main panel
+          imgEl.src = img;
+          imgEl.alt = title;             // keep alt in sync
+          titleEl.textContent = title;
+          descEl.innerHTML = desc;
+          ctaEl.textContent = cta;
+        });
+      });
+    });
+  </script>
+
+  <script>document.addEventListener('DOMContentLoaded', () => {
+    const slidesContainer = document.querySelector('.hero-carousel__slides');
+    const slides = [...document.querySelectorAll('.hero-carousel__slide')];
+    const prevBtn = document.querySelector('.carousel-prev');
+    const nextBtn = document.querySelector('.carousel-next');
+    let current = 0;
+  
+    function updateCarousel() {
+      // shift container by -current * 100%
+      slidesContainer.style.transform = `translateX(-${current * 100}%)`;
+      // update active class (optional)
+      slides.forEach((s, i) =>
+        s.classList.toggle('active', i === current)
+      );
+    }
+  
+    prevBtn.addEventListener('click', () => {
+      current = (current - 1 + slides.length) % slides.length;
+      updateCarousel();
+    });
+  
+    nextBtn.addEventListener('click', () => {
+      current = (current + 1) % slides.length;
+      updateCarousel();
+    });
+  
+    // (Optional) auto‐advance every 5s
+    // setInterval(() => {
+    //   nextBtn.click();
+    // }, 5000);
+  });
+  </script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const cards = document.querySelectorAll('.connect-card');
+    
+      cards.forEach(card => {
+        // give embeds a moment to load
+        setTimeout(() => {
+          // look for any fully rendered embed inside
+          const hasEmbed =
+            card.querySelector('iframe[src]')?.offsetHeight > 100 ||
+            card.querySelector('.instagram-media iframe') ||
+            card.querySelector('.twitter-tweet') ||
+            card.querySelector('.fb-post iframe') ||
+            card.querySelector('.tiktok-embed');
+    
+          if (!hasEmbed) {
+            card.classList.add('empty');
+          }
+        }, 2000);
+      });
+    });
+    </script>
+    
+
+  
+  </body>
+  </html>  
+</html>
